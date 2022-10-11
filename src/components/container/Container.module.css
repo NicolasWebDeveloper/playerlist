@@ -1,0 +1,8 @@
+.container {
+  padding: 2rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #1f1f1f;
+  /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.352); */
+}

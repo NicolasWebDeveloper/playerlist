@@ -1,10 +1,14 @@
 import List from './components/list/List';
+import Header from './components/header/Header';
+import Container from './components/container/Container';
 
 function App() {
   return (
     <div>
-      <h1>Playerlist</h1>
-      <List></List>
+      <Header />
+      <Container>
+        <List></List>
+      </Container>
     </div>
   );
 }

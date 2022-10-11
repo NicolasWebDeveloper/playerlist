@@ -6,8 +6,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0.2rem;
-  background-color: rgb(40, 145, 176);
+  /* background-color: rgb(40, 145, 176); */
+  border-bottom: 1px solid grey;
+  color: #fff;
 }
 
 .player {

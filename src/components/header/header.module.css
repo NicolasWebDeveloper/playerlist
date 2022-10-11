@@ -1,0 +1,12 @@
+.header {
+  position: fixed;
+  width: 100vw;
+  background-color: #181818;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.299);
+  padding: 1rem;
+}
+
+.title {
+  color: #fff;
+  margin: 0;
+}

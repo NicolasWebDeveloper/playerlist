@@ -8,7 +8,7 @@ const List = () => {
 
   const getData = async () => {
     try {
-      let data = await fetch('');
+      let data = await fetch('YOUR_URL');
       const jsonData = await data.json();
       console.log(jsonData);
       updateListData(jsonData);
