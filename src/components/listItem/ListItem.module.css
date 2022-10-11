@@ -1,0 +1,19 @@
+.listItem {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 95vw;
+  min-height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.2rem;
+  background-color: rgb(40, 145, 176);
+}
+
+.player {
+  margin-left: 1rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
