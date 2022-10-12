@@ -3,7 +3,7 @@ import classes from './header.module.css';
 const Header = () => {
   return (
     <div className={classes.header}>
-      <h1 className={classes.title}>Playerlist</h1>
+      <img className={classes.img} src={process.env.PUBLIC_URL + '/logo_placeholder.svg'} alt="" />
     </div>
   );
 };

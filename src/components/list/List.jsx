@@ -2,13 +2,14 @@ import { useEffect, useState } from 'react';
 
 import classes from './List.module.css';
 import ListItem from '../listItem/ListItem';
+import ListHeader from '../ListHeader/ListHeader';
 
 const List = () => {
   const [listData, updateListData] = useState();
 
   const getData = async () => {
     try {
-      let data = await fetch('YOUR_URL');
+      let data = await fetch('YOUR_ENDPOINT_HERE');
       const jsonData = await data.json();
       console.log(jsonData);
       updateListData(jsonData);
@@ -24,7 +25,7 @@ const List = () => {
   return (
     <div>
       <div className={classes.list}>
-        <ListItem key="9999999" player={{ name: 'Player', ping: 'Ping' }}></ListItem>
+        <ListHeader></ListHeader>
         {!listData ? 'Loading....' : listData.map(player => <ListItem key={player.id} player={player} />)}
       </div>
     </div>
